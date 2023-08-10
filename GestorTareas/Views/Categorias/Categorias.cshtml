@@ -1,0 +1,17 @@
+﻿@model GestorTareas.DTOs.CategoriasDTO
+
+@{
+    ViewData["Title"] = "Categorias";
+}
+
+<div>Lista de Categorías</div>
+
+@if (Model is not null)
+{
+    @foreach (var categoria in Model.Categorias)
+    {
+        <div>@categoria.Nombre</div>
+    }
+}
+
+

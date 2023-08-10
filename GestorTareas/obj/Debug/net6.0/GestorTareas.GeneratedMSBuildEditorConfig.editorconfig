@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\34656\source\repos\GestorTareas\GestorTareas
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/34656/source/repos/GestorTareas/GestorTareas/Views/Categorias/Categoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDYXRlZ29yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/34656/source/repos/GestorTareas/GestorTareas/Views/Categorias/Categorias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDYXRlZ29yaWFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/34656/source/repos/GestorTareas/GestorTareas/Views/Home/CrearCategoria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhckNhdGVnb3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -31,8 +39,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/34656/source/repos/GestorTareas/GestorTareas/Views/Home/_BarraLateral.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQmFycmFMYXRlcmFsLmNzaHRtbA==
+[C:/Users/34656/source/repos/GestorTareas/GestorTareas/Views/Proyectos/Proyecto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJveWVjdG9zXFByb3llY3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/34656/source/repos/GestorTareas/GestorTareas/Views/Proyectos/Proyectos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJveWVjdG9zXFByb3llY3Rvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/34656/source/repos/GestorTareas/GestorTareas/Views/Shared/_BarraLateral.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYXJyYUxhdGVyYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/34656/source/repos/GestorTareas/GestorTareas/Views/_ViewImports.cshtml]

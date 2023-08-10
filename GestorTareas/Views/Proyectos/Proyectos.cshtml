@@ -1,0 +1,16 @@
+﻿@model GestorTareas.DTOs.ProyectosDTO
+
+@{
+    ViewData["Title"] = "Proyectos";
+}
+
+<div>Lista de Proyectos</div>
+
+@if (Model is not null)
+{
+    @foreach (var proyecto in Model.Proyectos)
+    {
+        <div>@proyecto.Nombre</div>
+        <div>@proyecto.CategoriaId</div>
+    }
+}

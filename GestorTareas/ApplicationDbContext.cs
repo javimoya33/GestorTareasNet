@@ -13,19 +13,19 @@ namespace GestorTareas
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<EncargadosTareas>()
+            modelBuilder.Entity<EncargadoTarea>()
                 .HasKey(x => new { x.EncargadoId, x.TareaId });
 
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Categorias> Categorias { get; set; }
-        public DbSet<Proyectos> Proyectos { get; set; }
-        public DbSet<Tareas> Tareas { get; set; }
-        public DbSet<SubTareas> SubTareas { get; set; }
-        public DbSet<Encargados> Encargados { get; set; }
-        public DbSet<EncargadosTareas> EncargadosTareas { get; set; }
-        public DbSet<Niveles> Niveles { get; set; }
-        public DbSet<Estados> Estados { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Proyecto> Proyectos { get; set; }
+        public DbSet<Tarea> Tareas { get; set; }
+        public DbSet<SubTarea> SubTareas { get; set; }
+        public DbSet<Encargado> Encargados { get; set; }
+        public DbSet<EncargadoTarea> EncargadosTareas { get; set; }
+        public DbSet<Nivel> Niveles { get; set; }
+        public DbSet<Estado> Estados { get; set; }
     }
 }

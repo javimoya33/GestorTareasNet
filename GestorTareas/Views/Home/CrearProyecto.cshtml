@@ -1,5 +1,22 @@
-﻿@{
+﻿@model List<GestorTareas.DTOs.CategoriaDTO>
+
+@{
     ViewData["Title"] = "Crear Proyecto";
 }
 
-<div>Div de Crear Proyecto</div>
+<form asp-controller="Proyectos" asp-action="Post" method="post">
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre de Proyecto:</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Por ejemplo: Tareas domésticas del día" />
+    </div>
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Categoría:</label>
+        <select id="CategoriaId" name="CategoriaId">
+            @foreach (var categoria in Model)
+            {
+                <option value="@categoria.Id">@categoria.Nombre</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>

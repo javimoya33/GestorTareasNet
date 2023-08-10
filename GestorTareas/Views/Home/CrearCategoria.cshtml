@@ -2,4 +2,10 @@
     ViewData["Title"] = "Crear Categoria";
 }
 
-<div>Div de Crear Categoria</div>
+<form asp-controller="Categorias" asp-action="Post" method="post">
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre de Categoria:</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Por ejemplo: Tareas personales" />
+    </div>
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
